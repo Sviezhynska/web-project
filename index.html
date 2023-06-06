@@ -5,80 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-project</title>
-    <link rel="shortcut icon" href="img/1.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-        <nav>
-           <ul class ="nav">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-           </ul>
-           <div class="logo"><img src="img/logo.png" alt="logo"></div>
-           <ul class ="menu">
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-           </ul>
+    <header class="header">
+        <nav class ="nav">
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Pricing</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
         </nav>
-        <div class="block">
-            <section>
+        <div class="logo"><img src="img/logo.png" alt="logo Figma Land"></div>
+        <ul class ="menu">
+            <li class ="menu__twitter"><a href="#">Twitter</a></li>
+            <li class ="menu__facebook"><a href="#">Facebook</a></li>
+            <li class ="menu__instagram"><a href="#">Instagram</a></li>
+        </ul>
+        <div class="header__block">
+            <div class="header__title">
                 <h1>The best products start with Figma</h1>
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            </section>
+            </div>
             <div class="button"><a href="#">Try For Free</a></div>
         </div>   
     </header>
     <main>
-        <article>
-            <section>
+        <section class ="section">
+            <div class ="section__title">
                 <h2>Features</h2>
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-            </section>
-            <ul>
-                <li class ="item1">
+            </div>
+            <ul class="list-features">
+                <li>
+                    <img src="img/icon-figures.png" alt="figures">
                     <h3>OpenType features Variable fonts</h3>
                     <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
                 </li>
-                <li class ="item2">
+                <li>
+                    <img src="img/icon-pencil.png" alt="pencil">
                     <h3>Design with real data</h3>
                     <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
                 </li>
-                <li class ="item3">
+                <li>
+                    <img src="img/icon-tassel.png" alt="tassel">
                     <h3>Fastest way to take action</h3>
                     <p>Slate helps you see how  many more days you need to work to reach your financial goal.</p>
                 </li>
-            </ul> 
-        </article>
-        <video src="video.mp4" controls></video>
-        <article>
-            <div class="block">
-                <section>
+            </ul>
+            <div class ="video"><video src="video.mp4" controls></video></div>
+        </section>
+        <section class ="section block-left">
+            <article class="article">
+                <div class ="section__title">
                     <h3>Fastest way to organize</h3>
                     <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
-                </section>
+                </div>
                 <div class="button"><a href="#">Try For Free</a></div>
-            </div>
-            <img src="img/img-1.png" alt="image">
-        </article>
-        <article>
-            <img src="img/img-2.png" alt="image">
+            </article>
+            <img src="img/computer.png" alt="computer">
+        </section>
+        <section class ="section block-right">
+            <img src="img/man-letter.png" alt="man and letter">
             <div class="block">
-                <section>
-                    <h4>At your fingertips</h4>
-                    <h3>Lightning fast prototyping </h3>
+                <article class="article">
+                    <div class ="section__title"></div>
+                        <h4>At your fingertips</h4>
+                        <h3>Lightning fast prototyping </h3>
+                    </div>
                     <h4>Subscribe to our Newsletter</h4>
                     <p>Available exclusivery on Figmaland</p>
-                </section>
+                </article>
                 <div class="button-block">
-                    <a href="#" class="button1">Your Email</a>
-                    <a href="#" class="button2">Subscribe</a>
+                    <a href="#" class="btn-email">Your Email</a>
+                    <a href="#" class="btn-subscribe">Subscribe</a>
                 </div>
             </div>
-        </article>
+        </section>
+        <section class ="section">
+            <div class ="section__title"></div>
+                <h4>Partners</h4>
+                <h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
+            </div>
+            <ul class="list-features">
+                <li><img src="img/logo-google.png" alt="Client Name"></li>
+                <li><img src="img/logo-amazon.png" alt="Client Name"></li>
+                <li><img src="img/logo-microsoft.png" alt="Client Name"></li>
+                <li><img src="img/logo-uber.png" alt="Client Name"></li>
+                <li><img src="img/logo-dropbox.png" alt="Client Name"></li>
+                <li><img src="img/logo-google.png" alt="Client Name"></li>
+                <li><img src="img/logo-uber.png" alt="Client Name"></li>
+                <li><img src="img/logo-amazon.png" alt="Client Name"></li>
+            </ul>
+            <div class="button"><a href="#">Try For Free</a></div>
+        </section>
     </main>
     <footer></footer>
 </body>
