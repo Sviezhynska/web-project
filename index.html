@@ -5,23 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-project</title>
-    <link rel="shortcut icon" href="ico.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
 </head>
 <body>
     <header class="header">
         <nav class ="nav">
-            <a href="#">Home</a>
-            <a href="#">Product</a>
-            <a href="#">Pricing</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+            <ul class ="header__menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="header__logo"><img src="img/logo.png" alt="logo Figma Land"></div>
+            <ul class ="header__social">
+                <li class ="header__social__twitter"><a href="#">Twitter</a></li>
+                <li class ="header__social__facebook"><a href="#">Facebook</a></li>
+                <li class ="header__social__instagram"><a href="#">Instagram</a></li>
+            </ul>
         </nav>
-        <div class="logo"><img src="img/logo.png" alt="logo Figma Land"></div>
-        <ul class ="menu">
-            <li class ="menu__twitter"><a href="#">Twitter</a></li>
-            <li class ="menu__facebook"><a href="#">Facebook</a></li>
-            <li class ="menu__instagram"><a href="#">Instagram</a></li>
-        </ul>
         <div class="header__block">
             <div class="header__title">
                 <h1>The best products start with Figma</h1>
@@ -30,13 +32,13 @@
             <div class="button"><a href="#">Try For Free</a></div>
         </div>   
     </header>
-    <main>
+    <main class="main">
         <section class ="section">
             <div class ="section__title">
                 <h2>Features</h2>
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             </div>
-            <ul class="list-features">
+            <ul class="section__items">
                 <li>
                     <img src="img/icon-figures.png" alt="figures">
                     <h3>OpenType features Variable fonts</h3>
@@ -53,7 +55,7 @@
                     <p>Slate helps you see how  many more days you need to work to reach your financial goal.</p>
                 </li>
             </ul>
-            <div class ="video"><video src="video.mp4" controls></video></div>
+            <div class ="section__video"><video src="video.mp4" controls></video></div>
         </section>
         <section class ="section block-left">
             <article class="article">
@@ -69,7 +71,7 @@
             <img src="img/man-letter.png" alt="man and letter">
             <div class="block">
                 <article class="article">
-                    <div class ="section__title"></div>
+                    <div class ="section__title">
                         <h4>At your fingertips</h4>
                         <h3>Lightning fast prototyping </h3>
                     </div>
@@ -83,23 +85,137 @@
             </div>
         </section>
         <section class ="section">
-            <div class ="section__title"></div>
-                <h4>Partners</h4>
-                <h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
+            <div class ="section__title">
+                <h3>Partners</h3>
+                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             </div>
             <ul class="list-features">
-                <li><img src="img/logo-google.png" alt="Client Name"></li>
-                <li><img src="img/logo-amazon.png" alt="Client Name"></li>
-                <li><img src="img/logo-microsoft.png" alt="Client Name"></li>
-                <li><img src="img/logo-uber.png" alt="Client Name"></li>
-                <li><img src="img/logo-dropbox.png" alt="Client Name"></li>
-                <li><img src="img/logo-google.png" alt="Client Name"></li>
-                <li><img src="img/logo-uber.png" alt="Client Name"></li>
-                <li><img src="img/logo-amazon.png" alt="Client Name"></li>
+                <li><img src="img/logo-google.png" alt="Client Name logo Google"></li>
+                <li><img src="img/logo-amazon.png" alt="Client Name logo Amazon"></li>
+                <li><img src="img/logo-microsoft.png" alt="Client Name logo Microsoft"></li>
+                <li><img src="img/logo-uber.png" alt="Client Name logo Uber"></li>
+                <li><img src="img/logo-dropbox.png" alt="Client Name logo Dropbox"></li>
+                <li><img src="img/logo-google.png" alt="Client Name logo Google"></li>
+                <li><img src="img/logo-uber.png" alt="Client Name logo Uber"></li>
+                <li><img src="img/logo-amazon.png" alt="Client Name logo Amazon"></li>
             </ul>
             <div class="button"><a href="#">Try For Free</a></div>
         </section>
+        <section class ="section">
+            <div class ="section__title">
+                <h3>Testimonials</h3>
+            </div>
+            <div class="section__logo"><img src="img/logo-ibm.png" alt="IBM"></div>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
+            <figure class="section__foto">
+                <img src="img/foto.png" alt="Client Name logo Amazon">
+                <figcaption>
+                    <span>Organize across</span>
+                    <span>Ui designer</span>
+                </figcaption> 
+            </figure>
+            <div class="button"><a href="#">More Testimonials</a></div>
+        </section>
+        <section class ="section alt">
+            <div class ="section__title">
+                <h3>Pricing</h3>
+                <p>Most calendars are designed for teams.  Slate is designed for freelancers</p>
+            </div>
+            <ul class ="section__boxes">
+                <li class ="section__boxes__box">
+                    <div class ="section__title">
+                        <h4>FREE</h4>
+                        <h3>Organize across all apps by hand</h3>
+                    </div>
+                    <div class="section__item">
+                        <strong class="section__item__price">0</strong>
+                        <div class="section__item__info">
+                            <strong>$</strong>
+                            <span>Per Month</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <div class="button"><a href="#">Order Now</a></div>
+                </li>
+                <li class ="section__boxes__box alt">
+                    <div class ="section__title">
+                        <h4>STANDARD</h4>
+                        <h3>Organize across all apps by hand</h3>
+                    </div>
+                    <div class="section__item">
+                        <strong class="section__item__price">10</strong>
+                        <div class="section__item__info">
+                            <strong>$</strong>
+                            <span>Per Month</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <div class="button"><a href="#">Order Now</a></div>
+                </li>
+                <li class ="section__boxes__box">
+                    <div class ="section__title">
+                        <h4>BUSINESS</h4>
+                        <h3>Organize across all apps by hand</h3>
+                    </div>
+                    <div class="section__item">
+                        <strong class="section__item__price">99</strong>
+                        <div class="section__item__info">
+                            <strong>$</strong>
+                            <span>Per Month</span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <div class="button"><a href="#">Order Now</a></div>
+                </li>
+            </ul>
+        </section>
+        <section class ="section">
+            <div class ="section__title">
+                <h4>Contact Us</h4>
+                <h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
+            </div>
+            <form class="section__form-contact" action="/submit" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+                <input type="email" id="email" name="email" placeholder="Your Email">
+                <textarea id="message" name="message" rows="4" cols="50">Your Message</textarea>
+                <button class="form-contact__btn-submit" type="submit">Send</button>
+            </form>
+            <div class ="section__block-contact">
+                <h4>Contact Us</h4>
+                <h3>Most calendars are designed for teams. Slate is designed for freelancers</h3>
+            </div>
+        </section>
     </main>
-    <footer></footer>
+    <footer class="footer">
+        <div class="footer__colums">
+            <div class="footer__colum">
+                <h3>Pages</h3>
+                <ul class="footer__menu">
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>Pricing</li>
+                    <li>About</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
