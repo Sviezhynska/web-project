@@ -9,8 +9,8 @@
 </head>
 <body>
     <header class="header">
-        <nav class ="nav">
-            <ul class ="header__menu">
+        <nav class ="header__nav">
+            <ul class ="header__nav-menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Pricing</a></li>
@@ -19,9 +19,9 @@
             </ul>
             <div class="header__logo"><img src="img/logo.png" alt="logo Figma Land"></div>
             <ul class ="header__social">
-                <li class ="header__social__twitter"><a href="#">Twitter</a></li>
-                <li class ="header__social__facebook"><a href="#">Facebook</a></li>
-                <li class ="header__social__instagram"><a href="#">Instagram</a></li>
+                <li class ="header__social-twitter"><a href="#">Twitter</a></li>
+                <li class ="header__social-facebook"><a href="#">Facebook</a></li>
+                <li class ="header__social-instagram"><a href="#">Instagram</a></li>
             </ul>
         </nav>
         <div class="header__block">
@@ -29,7 +29,7 @@
                 <h1>The best products start with Figma</h1>
                 <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
             </div>
-            <div class="button"><a href="#">Try For Free</a></div>
+            <div class="header__button button"><a href="#">Try For Free</a></div>
         </div>   
     </header>
     <main class="main">
@@ -57,7 +57,7 @@
             </ul>
             <div class ="section__video"><video src="video.mp4" controls></video></div>
         </section>
-        <section class ="section block-left">
+        <div class ="section block-left">
             <article class="article">
                 <div class ="section__title">
                     <h3>Fastest way to organize</h3>
@@ -66,8 +66,8 @@
                 <div class="button"><a href="#">Try For Free</a></div>
             </article>
             <img src="img/computer.png" alt="computer">
-        </section>
-        <section class ="section block-right">
+        </div>
+        <div class ="section block-right">
             <img src="img/man-letter.png" alt="man and letter">
             <div class="block">
                 <article class="article">
@@ -83,7 +83,7 @@
                     <a href="#" class="btn-subscribe">Subscribe</a>
                 </div>
             </div>
-        </section>
+        </div>
         <section class ="section">
             <div class ="section__title">
                 <h3>Partners</h3>
@@ -206,13 +206,22 @@
     </main>
     <footer class="footer">
         <div class="footer__colums">
-            <div class="footer__colum">
-                <h3>Pages</h3>
-                <ul class="footer__menu">
-                    <li>Home</li>
-                    <li>Product</li>
-                    <li>Pricing</li>
-                    <li>About</li>
+            <div class="footer__colums colum">
+                <h3 class="footer__colum__title">Pages</h3>
+                <ul class="footer__colum__menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </div>
+            <div class="footer__colums colum">
+                <h3 class="footer__colum__title">Tomothy</h3>
+                <ul class="footer__colum__menu">
+                    <li><a href="#">Eleanor Edwards</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
             </div>
         </div>
