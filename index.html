@@ -6,67 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web-project</title>
     <link rel="shortcut icon" href="img/ico.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <header class="header">
         <nav class ="header__nav">
-            <ul class ="header__nav-menu">
+            <ul class ="header__nav--menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Product</a></li>
                 <li><a href="#">Pricing</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
-            <div class="header__logo"><img src="img/logo.png" alt="logo Figma Land"></div>
+            <div class="header__logo">Figma Land</div>
             <ul class ="header__social">
-                <li class ="header__social-twitter"><a href="#">Twitter</a></li>
-                <li class ="header__social-facebook"><a href="#">Facebook</a></li>
-                <li class ="header__social-instagram"><a href="#">Instagram</a></li>
+                <li class ="header__social header__social--twitter"><a href="#">Twitter</a></li>
+                <li class ="header__social header__social--facebook"><a href="#">Facebook</a></li>
+                <li class ="header__social header__social--instagram"><a href="#">Instagram</a></li>
             </ul>
         </nav>
         <div class="header__block">
-            <div class="header__title">
-                <h1>The best products start with Figma</h1>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <div class="header__heading heading">
+                <h1 class="header__heading--main title">The best products start with Figma</h1>
+                <p class="header__heading--description description">
+					Most calendars are designed for teams. 
+					<span class="hidden">Slate is designed for freelancers</span>
+				</p>
             </div>
-            <div class="header__button button"><a href="#">Try For Free</a></div>
+            <div class="header__button"><a class="button" href="#">Try For Free</a></div>
         </div>   
     </header>
     <main class="main">
-        <section class ="section">
-            <div class ="section__title">
-                <h2>Features</h2>
-                <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+        <section class ="feature">
+            <div class ="feature__heading heading">
+                <h2 class="feature__heading--main title">Features</h2>
+                <p class="feature__heading--description description">
+					Most calendars are designed for teams. 
+					<span class="hidden">Slate is designed for freelancers</span>
+				</p>
             </div>
-            <ul class="section__items">
-                <li>
-                    <img src="img/icon-figures.png" alt="figures">
-                    <h3>OpenType features Variable fonts</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-                </li>
-                <li>
-                    <img src="img/icon-pencil.png" alt="pencil">
-                    <h3>Design with real data</h3>
-                    <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
-                </li>
-                <li>
-                    <img src="img/icon-tassel.png" alt="tassel">
-                    <h3>Fastest way to take action</h3>
-                    <p>Slate helps you see how  many more days you need to work to reach your financial goal.</p>
-                </li>
-            </ul>
-            <div class ="section__video"><video src="video.mp4" controls></video></div>
+			<div class ="feature__video"><video src="video.mp4" controls></video></div>
+            <div class="feature__items">
+                <article class="feature__item item-figures">
+                    <h3 class="feature__item-title title-sub">OpenType features Variable fonts</h3>
+                    <p class="feature__item-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </article>
+                <article class="feature__item item-pencil">
+                    <h3 class="feature__item-title title-sub">Design with real data</h3>
+                    <p class="feature__item-description">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </article>
+                <article class="feature__item item-tassel">
+                    <h3 class="feature__item-title title-sub">Fastest way to take action</h3>
+                    <p class="feature__item-description">Slate helps you see how  many more days you need to work to reach your financial goal.</p>
+                </article>
+            </div>
         </section>
-        <div class ="section block-left">
-            <article class="article">
-                <div class ="section__title">
+        <section class="section">
+			<div class="section__image"><img src="img/computer.png" alt="computer"></div>
+            <article class="section__article">
+                <div class ="section__article--heading">
                     <h3>Fastest way to organize</h3>
                     <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
                 </div>
-                <div class="button"><a href="#">Try For Free</a></div>
+                <div class="section__button"><a class="button" href="#">Try For Free</a></div>
             </article>
-            <img src="img/computer.png" alt="computer">
-        </div>
+        </section>
         <div class ="section block-right">
             <img src="img/man-letter.png" alt="man and letter">
             <div class="block">
