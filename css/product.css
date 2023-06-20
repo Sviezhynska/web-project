@@ -1,0 +1,38 @@
+.product {
+	margin: auto;
+	max-width: 1776px;
+	text-align: center;
+	padding: 50px 10px;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center
+}
+
+.product__image {
+	padding: 10px 20px;
+}
+
+.product__info {
+	padding: 20px 80px;
+}
+
+@media (min-width: 1135px) {
+	
+    .product {
+	    flex-direction: row;
+        justify-content: center;
+		padding: 50px 100px;
+		text-align: left;
+    }
+	
+	.product__title,
+	.product__description {
+		text-align: left;
+	}
+	
+	.product__title {
+		width: 380px;	
+	}
+	
+}

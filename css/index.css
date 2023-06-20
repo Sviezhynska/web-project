@@ -1,1 +1,7 @@
+@import "fonts.css";
 @import "global.css";
+@import "components.css";
+@import "header.css";
+@import "feature.css";
+@import "product.css";
+@import "newsletter.css";
