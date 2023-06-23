@@ -1,29 +1,29 @@
 .button {
-	font-size: 1.25em;
-	display: inline-block;
-	padding: 15px;
-	background-color: var(--button-background-color);
-	text-decoration:none;
-	border-radius:35px;
-	color: var(--button-text-color);
-	text-align: center;
-	cursor: pointer;
-	margin: auto;
+    font-size: 1.25em;
+    display: inline-block;
+    padding: 15px;
+    background-color: var(--button-background-color);
+    text-decoration:none;
+    border-radius:35px;
+    color: var(--button-text-color);
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
 }
 
 .title {
-	font-size: 3.4em;
-	font-weight: normal;
-	margin: 0 20px 27px;
-	text-align: center;
-	color: var(--title-color);
+    font-size: 3.4em;
+    font-weight: normal;
+    margin: 0 20px 27px;
+    text-align: center;
+    color: var(--title-color);
 }
 
 .description {
-	font-size: 1.75em;
-	margin: 0 20px 50px;
-	text-align: center;
-	color: var(--main-text-color);
+    font-size: 1.75em;
+    margin: 0 20px 50px;
+    text-align: center;
+    color: var(--main-text-color);
 }
 
 
