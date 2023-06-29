@@ -1,5 +1,5 @@
 .header {
-    background: url("../img/background.jpg") center/cover;    
+    background: var(--header-background-image) center/cover;   
     min-height: 834px;
     text-align: center;
     padding: 14px 9px;
