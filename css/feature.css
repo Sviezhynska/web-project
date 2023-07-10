@@ -1,111 +1,111 @@
 .feature{
-	padding: 45px 10px;
-	text-align: center;
-	position: relative;
-	margin: -5px auto 0;
-	background: var(--section-color);
-	max-width: 1776px;
+    padding: 45px 10px;
+    text-align: center;
+    position: relative;
+    margin: -5px auto 0;
+    background: var(--section-color);
+    max-width: 1776px;
 }
 
  .feature__item-title {
-	font-size: 1.25em;
-	font-weight: bold;
-	margin: 0 0 20px;	
+    font-size: 1.25em;
+    font-weight: bold;
+    margin: 0 0 20px;    
 }
 
 .feature__item-title br {
-	display: none;
+    display: none;
 }
-	
+    
 .feature__item-description {
-	font-size: 1.1em;
+    font-size: 1.1em;
 }
 
 .feature__description span {
-	display: none;
+    display: none;
 }
 
 .feature__container-small {
-	margin:0 10px 82px;
+    margin:0 10px 82px;
 }
 
 .feature__container-main {
-	margin:10px 20px 82px;
-	display: none;
+    margin:10px 20px 82px;
+    display: none;
 }
 
 .feature__video-main,
 .feature__video-small {
-	width: 100%;
+    width: 100%;
     border-radius: 10px;
     box-shadow: -1px 2px 24px 0px rgba(34, 60, 80, 0.21);
-	position: relative;
+    position: relative;
 }
 
 .feature__video-main {
-	max-width: 1177px;
-	margin: auto;
+    max-width: 1177px;
+    margin: auto;
 }
 
 .feature__items {
-	padding: 0 90px 16px;
+    padding: 0 90px 16px;
 }
 
 .feature__item {
-	margin: 0 10px 82px;
+    margin: 0 10px 82px;
 }
 
 .article-image {
-	margin: 0 auto 27px;
+    margin: 0 auto 27px;
 }
 
 .feature__item-figures {
-	width: 46px;
-	height: 47px;
+    width: 46px;
+    height: 47px;
  }
  
 .feature__item-pencil {
-	width: 46px;
-	height: 43px;
+    width: 46px;
+    height: 43px;
  }
  
 .feature__item-tassel {
-	width: 49px;
-	height: 47px;
+    width: 49px;
+    height: 47px;
  }
  
 @media (min-width: 800px) {
-	
-	.feature{
-		margin: auto;
-	}
-	
-	.feature__description span {
-		display: block;
-	}
-	
-	.feature__container-main {
-		display: block;
-	}
-	
-	.feature__container-small {
-		display: none;
-	}	
-	
-	.feature__items {
-		display: flex;
-		justify-content: center;
-		padding: 0 90px 16px;
-		
-	}
-	.feature__item {
-		max-width: 250px;
-		margin: 0 20px 82px;
-	}
-	
-	.feature__item-title br {
-		display: block;
-	}
-	
+    
+    .feature{
+        margin: auto;
+    }
+    
+    .feature__description span {
+        display: block;
+    }
+    
+    .feature__container-main {
+        display: block;
+    }
+    
+    .feature__container-small {
+        display: none;
+    }    
+    
+    .feature__items {
+        display: flex;
+        justify-content: center;
+        padding: 0 90px 16px;
+        
+    }
+    .feature__item {
+        max-width: 250px;
+        margin: 0 20px 82px;
+    }
+    
+    .feature__item-title br {
+        display: block;
+    }
+    
 }
 

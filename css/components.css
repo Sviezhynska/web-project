@@ -26,4 +26,21 @@
     color: var(--main-text-color);
 }
 
-
+.social-item {
+    cursor: pointer;
+    margin: 0 16px;    
+ }
+.social-twitter {
+    width: 34px;
+    height: 28px;
+ }
+ 
+.social-facebook {
+    width: 33px;
+    height: 34px;
+ }
+ 
+.social-instagram {
+    width: 34px;
+    height: 34px;
+ }
