@@ -9,19 +9,19 @@
 :root {
     --header-background-image: url("../img/background-header.jpg");
     --header-color: #fff;
-	--navbar-background-image: url("../img/background-navbar.png");
+    --navbar-background-image: url("../img/background-navbar.png");
     --main-text-color: #374754;
     --title-color: #252b42;
-	--section-color: #fff;
-	--button-background-color: #2091f9;
-	--button-text-color: #fff;
-	--input-background-color: #f4f4f4;
-	--input-border-color: #e8e8e8;
-	--input-text-color: #18171d;
-	--footer-background: #252B42;
-	--footer-color: #fff;
-	--footer-map-image: url("../img/map.png");
-	--footer-telefon-image: url("../img/telefon.png");
+    --section-color: #fff;
+    --button-background-color: #2091f9;
+    --button-text-color: #fff;
+    --input-background-color: #f4f4f4;
+    --input-border-color: #e8e8e8;
+    --input-text-color: #18171d;
+    --footer-background: #252B42;
+    --footer-color: #fff;
+    --footer-map-image: url("../img/map.png");
+    --footer-telefon-image: url("../img/telefon.png");
     font-family: 'Graphik', sans-serif;
     scroll-behavior: smooth;
 }
